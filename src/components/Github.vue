@@ -1,6 +1,11 @@
 <template>
   <div class="github">
-    <a href="" class="repo-link"><i class="fab fa-github"></i></a>
+    <a
+      target="_blank"
+      href="https://github.com/YongzeYao/XLogo"
+      class="repo-link"
+      ><i class="fab fa-github"></i
+    ></a>
   </div>
 </template>
 

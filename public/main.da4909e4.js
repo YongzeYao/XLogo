@@ -18125,6 +18125,11 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
 var _default = {};
 exports.default = _default;
         var $d3599a = exports.default || module.exports;
@@ -18147,9 +18152,17 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "github" }, [
-      _c("a", { staticClass: "repo-link", attrs: { href: "" } }, [
-        _c("i", { staticClass: "fab fa-github" })
-      ])
+      _c(
+        "a",
+        {
+          staticClass: "repo-link",
+          attrs: {
+            target: "_blank",
+            href: "https://github.com/YongzeYao/XLogo"
+          }
+        },
+        [_c("i", { staticClass: "fab fa-github" })]
+      )
     ])
   }
 ]

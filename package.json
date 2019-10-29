@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel static/index.html --no-cache --out-dir public"
+    "start": "parcel static/index.html --no-cache --out-dir public",
+    "build": "parcel build static/index.html --out-dir public"
   },
   "keywords": [],
   "author": "",
