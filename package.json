@@ -1,0 +1,32 @@
+{
+  "name": "xlogo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "posthtml": {
+    "recognizeSelfClosing": true
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "parcel": "^1.12.4",
+    "prettier": "^1.18.2",
+    "sass": "^1.23.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "dom-to-image": "^2.6.0",
+    "normalize.css": "^8.0.1",
+    "v-tooltip": "^2.0.2",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.4"
+  }
+}
